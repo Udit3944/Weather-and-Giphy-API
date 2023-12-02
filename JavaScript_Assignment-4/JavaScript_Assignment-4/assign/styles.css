@@ -1,0 +1,104 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #64ffda;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #64ffda;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  width: 250px;
+  background-color: #333;
+  color: #ffffff;
+  border: 1px solid #64ffda;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #64ffda;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.weather-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chart-container {
+  margin-top: 50px;
+}
+
+canvas {
+  background-color: #222;
+  border-radius: 10px;
+}
+
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* footer Section Styling */
+
+footer {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  height: 35px;
+  text-align: center;
+  padding: 8px;
+}
+footer span a {
+  text-decoration: none;
+  color: crimson;
+  padding: 0px 5px;
+}
+footer span a:hover {
+  text-decoration: underline;
+}

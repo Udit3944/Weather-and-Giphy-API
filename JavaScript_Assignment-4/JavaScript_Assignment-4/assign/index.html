@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get to know about your city</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather & Giphy API Demo</h1>
+      <form id="city-form">
+        <label for="city">Enter Your City Here:</label>
+        <input type="text" id="city" required />
+        <button type="submit">Get Weather & Gif</button>
+      </form>
+      <div id="weather-data" class="weather-details">
+        <!-- Weather data will be displayed here -->
+      </div>
+      <div id="gif-container">
+        <!-- Gif will be displayed here -->
+      </div>
+    </div>
+    <div class="chart-container">
+      <canvas id="weather-chart"></canvas>
+    </div>
+    <h3>
+      <a
+        href="https://openweathermap.org/appid"
+        target="_blank"
+        style="text-decoration: none"
+      >
+        Click here For open weather map API
+      </a>
+    </h3>
+    <h3>
+      <a
+        href="https://developers.giphy.com/docs/api/endpoint#endpoint"
+        target="_blank"
+        style="text-decoration: none"
+      >
+        Click me For Giphy API
+      </a>
+    </h3>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Footer Section start -->
+    <footer>
+      <h3>
+        <span
+          >Created by<a href="#">Udit M. Gami</a> |
+          <span class="far fa-copyright"></span> 2023 All rights reserved.</span
+        >
+      </h3>
+    </footer>
+  </body>
+</html>
